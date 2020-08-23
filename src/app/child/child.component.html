@@ -1,0 +1,14 @@
+<input type="text" name="childmsg" [(ngModel)]="childmsg">
+<button type="button" (click)="sendtoParent(childmsg)">OK</button>
+
+<!-- {{childmsg}} -->
+
+<!-- <input type="text" name="childmsg" [value]='aa' > -->
+
+<!-- interpolation : {{aa}}
+
+Dropdown: <select (change)="ch($event.target.value)" >
+  <option [value]='aa'>{{aa}}</option>
+  <option value='bb'>{{bb}}</option>
+
+<!-- </select> -->
